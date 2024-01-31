@@ -185,7 +185,7 @@ void showTitleScreen() {
     printf("                                \n");
     printf("         PRESS ENTER            \n");
     printf("--------------------------------\n");
-    printf("Ver. 1.3                        \n");
+    printf("Ver. 1.4                        \n");
     printf("(C)UHAsikakutou 2024            \n");
     printf("co-author:                      \n");
     printf("- ChatGPT (GPT-3.5 Turbo)       \n");
@@ -275,7 +275,7 @@ void placeEnemies() {
 
 void printMap() {
     clearScreen();
-    printf("Very Simple Rogue-like Game Ver 1.3\n");
+    printf("Very Simple Rogue-like Game Ver. 1.4\n");
     printf("(c)UHAsikakutou 2024\n\n");
     for (int i = 0; i < MAP_SIZE; ++i) {
         for (int j = 0; j < MAP_SIZE; ++j) {
