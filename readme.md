@@ -2,12 +2,10 @@
 
 Rouge like for NEC PC-9800 series
 
-![image](https://github.com/UHAsikakutou/easyRogue/assets/91722200/6687a734-8f34-4811-825f-fc2ac233ca9e)
-
 ```
 ----------------------------------------------------------------------------
 【登 録 名】easyRogue
-【 作成者 】UHAsikakutou (https://https://github.com/UHAsikakutou)
+【作 成 者】UHAsikakutou (https://https://github.com/UHAsikakutou)
 【ソフト名】ROGUE.COM
 【動作環境】マシン：NEC PC-9800シリーズ及びその互換機
 　　　　　　Ｏ　Ｓ：MS-DOS
@@ -17,6 +15,8 @@ Rouge like for NEC PC-9800 series
 ----------------------------------------------------------------------------
 ```
 
+
+![image](https://github.com/UHAsikakutou/easyRogue/assets/91722200/6687a734-8f34-4811-825f-fc2ac233ca9e)
 
 ## Screenshots
 
