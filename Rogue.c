@@ -16,7 +16,7 @@
 #define MAX_ITEMS 2
 #define CELEBRATION_MESSAGES 5
 
-enum Command { ATTACK, DEFEND, ESCAPE };
+enum Command {DUMMY, ATTACK, DEFEND, ESCAPE };
 
 void wait(const unsigned int count)
 {
@@ -146,9 +146,9 @@ void greenScreen(void) {
     return;
 }
 
-void displayBattleScene(int enemyHP) {
+void displayBattleScene(int enemyHP, int playerHP) {
     printf("=== Battle Scene ===\n");
-    printf("Enemy HP: %d\n", enemyHP);
+    printf("Enemy HP: %d  Player HP: %d \n", enemyHP,playerHP);
     printf("1. Attack\n");
     printf("2. Defend\n");
     printf("3. Escape\n");
@@ -382,7 +382,7 @@ void celebrate() {
 int processBattle(enum Command playerCommand, int enemyHP) {
     // 仮の戦闘処理
     int isSuccessfullEscape = 0;
-    switch (playerCommand - 1) {
+    switch (playerCommand) {
     case ATTACK:
         printf("You dealt 3 damage to the enemy!\n");
         enemyHP -= 3;
@@ -477,7 +477,7 @@ int main() {
                     while (1) {
                         enum Command playerCommand;
                         do {
-                            displayBattleScene(enemyHP);
+                            displayBattleScene(enemyHP,playerHP);
                             printf("Choose your command (1-3): ");
                             scanf("%d", (int *)&playerCommand);
 
@@ -516,6 +516,7 @@ int main() {
         } else {
             redScreen();
             printf("Game Over! Your HP reached 0.\n");
+            printf("You reached floor %d.\n", floorNumber);
             break;
         }
 
