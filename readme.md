@@ -5,7 +5,7 @@ Rouge like for NEC PC-9800 series
 ```
 ----------------------------------------------------------------------------
 【登 録 名】easyRogue
-【作 成 者】UHAsikakutou (https://https://github.com/UHAsikakutou)
+【作 成 者】UHAsikakutou (https://github.com/UHAsikakutou)
 【ソフト名】ROGUE.COM
 【動作環境】マシン：NEC PC-9800シリーズ及びその互換機
 　　　　　　Ｏ　Ｓ：MS-DOS
