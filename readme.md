@@ -9,7 +9,7 @@ Rouge like for NEC PC-9800 series
 【ソフト名】ROGUE.COM
 【動作環境】マシン：NEC PC-9800シリーズ及びその互換機
 　　　　　　Ｏ　Ｓ：MS-DOS
-　　　　　　PC-9821 V13 (Windows95 DOSモード)NekoProject 21/W (MS-DOS 6.2)にて動作確認
+　　　　　　PC-9821 V13(Windows95 DOSモード)・NekoProject 21/W(MS-DOS 6.2)にて動作確認
 【ｿﾌﾄ 種別】ゲーム
 【転　　載】ライセンスの範囲内で可
 【掲載月日】2024.1.31
